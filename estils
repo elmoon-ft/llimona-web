@@ -1,3 +1,6 @@
 body {
     background: black;
 }
+#s1 {
+    background-color: coral;
+}
