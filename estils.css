@@ -2,5 +2,5 @@ body {
     background: black;
 }
 #s1 {
-    background-color: coral;
+    border: 5px solid coral !important;
 }
