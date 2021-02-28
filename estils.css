@@ -2,6 +2,7 @@
 #cover {
     display: flex;
     justify-content: center;
+    align-items: stretch;
 }
 #cover img {
     /* height: 400px; */
