@@ -10,5 +10,6 @@
 }
 .main {
     grid-area: lemon;
+    max-height: 300px;
     place-self: center stretch;
 }
