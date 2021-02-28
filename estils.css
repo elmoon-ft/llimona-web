@@ -18,7 +18,3 @@
     grid-area: lemon;
     border: 1px solid greenyellow;
 }
-.main img {
-    object-fit: fill;
-    overflow: hidden;
-}
