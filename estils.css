@@ -13,8 +13,8 @@
 
 
 body {
-    width: 100vw;
-    background: black;
+    /* width: 100vw; */
+    background: white;
 }
 #s1 {
     border: 5px solid coral !important;
