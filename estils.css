@@ -19,5 +19,6 @@
     border: 1px solid greenyellow;
 }
 .main img {
-    object-fit: contain;
+    object-fit: fill;
+    overflow: hidden;
 }
