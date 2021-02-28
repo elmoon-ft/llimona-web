@@ -1,13 +1,14 @@
 
 #cover img {
     position: fixed;
-    top: 50vh;
-    left: 50vw;
+    top: 50%;
+    left: 50%50%
     /* height: 50vh; */
 }
 
 
 body {
+    width: 100vw;
     background: black;
 }
 #s1 {
