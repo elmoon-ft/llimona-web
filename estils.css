@@ -1,7 +1,7 @@
 
 .cover {
     display: grid;
-    grid-template-columns: 25% 250px 25%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 25% 50% 25%;
     grid-template-areas: "header header header" ". lemon ." "footer footer footer";
     justify-items: stretch;
