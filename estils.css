@@ -1,6 +1,6 @@
 
 #cover {
-    position: fixed;
+    position: absolute;
     top: 50vh;
     left: 50vw;
     width: 400px;
