@@ -1,6 +1,6 @@
 
 #cover img {
-    position: absolute;
+    position: fixed;
     top: 50vh;
     left: 50vw;
     width: 400px;
