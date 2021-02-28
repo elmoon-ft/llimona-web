@@ -8,8 +8,15 @@
     align-items: stretch;
     height: 100vh;
 }
+.header {
+    grid-area: header;
+}
+.footer {
+    grid-area: footer;
+}
 .main {
     grid-area: lemon;
+    border: 1px solid greenyellow;
 }
 .main img {
     object-fit: contain;
