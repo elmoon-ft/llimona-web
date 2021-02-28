@@ -14,7 +14,6 @@
 .footer {
     grid-area: footer;
 }
-.main {
+.lemon {
     grid-area: lemon;
-    border: 1px solid greenyellow;
 }
