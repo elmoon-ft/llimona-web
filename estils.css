@@ -1,9 +1,11 @@
 
+#cover {
+    display: flex;
+    justify-content: center;
+}
 #cover img {
-    position: fixed;
-    
     /* height: 400px; */
-    /* width: 400px; */
+    width: 400px;
     /* height: 50vh; */
 }
 
