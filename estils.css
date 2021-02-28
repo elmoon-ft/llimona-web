@@ -4,13 +4,12 @@
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 25% 50% 25%;
     grid-template-areas: "header header header" ". lemon ." "footer footer footer";
-    justify-items: center;
-    align-items: center;
+    justify-items: stretch;
+    align-items: stretch;
     height: 100vh;
 }
 .main {
     grid-area: lemon;
-    place-self: center stretch;
 }
 .main img {
     object-fit: contain;
