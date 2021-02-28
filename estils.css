@@ -1,16 +1,16 @@
 
 .cover {
     display: grid;
-    grid-template-columns: 25% 300px 25%;
+    grid-template-columns: 25vw 300px 25vw;
     grid-template-rows: 25% 50% 25%;
     grid-template-areas: "header header header" ". lemon ." "footer footer footer";
-    justify-items: stretch;
+    justify-items: center;
     align-items: center;
     height: 100vh;
 }
 .main {
     grid-area: lemon;
-    max-height: 300px;
+    max-width: 300px;
     place-self: center stretch;
 }
 
