@@ -1,12 +1,12 @@
 
 #cover img {
-    width: 50vw;
-    /* height: 50vh; */
+    /* width: 50vw;*/
+    height: 50vh;
 }
 
 
 body {
-    background: white;
+    background: black;
 }
 #s1 {
     border: 5px solid coral !important;
