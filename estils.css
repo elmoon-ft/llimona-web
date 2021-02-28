@@ -1,21 +1,13 @@
 
-#cover {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+.cover {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-areas: "header header header" ". lemon ." "footer footer footer";
+    justify-items: stretch;
+    align-items: center;
     height: 100vh;
 }
-#cover img {
-    /* height: 400px; */
-    width: 250px;
-    /* height: 50vh; */
-}
-
-
-body {
-    /* width: 100vw; */
-    background: white;
-}
-#s1 {
-    border: 5px solid coral !important;
+.main {
+    grid-area: lemon;
 }
