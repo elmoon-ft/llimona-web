@@ -1,7 +1,7 @@
 
 .cover {
     display: grid;
-    grid-template-columns: 25vw 300px 25vw;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 25% 50% 25%;
     grid-template-areas: "header header header" ". lemon ." "footer footer footer";
     justify-items: center;
@@ -10,7 +10,8 @@
 }
 .main {
     grid-area: lemon;
-    max-width: 300px;
     place-self: center stretch;
 }
-
+.main img {
+    object-fit: contain;
+}
